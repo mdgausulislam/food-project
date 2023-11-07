@@ -11,7 +11,7 @@ const NavBar = () => {
             <div className="navbar-start">
                 <a className="btn btn-ghost normal-case text-xl"><img src={logo} alt="" /></a>
             </div>
-            <div className="navbar-center hidden sm:flex">
+            <div className="navbar-center hidden lg:flex">
                 <div className="form-control">
                     <div className="input-group">
                         <input type="text" placeholder="Search Best Food" className="input input-bordered" />
@@ -23,8 +23,8 @@ const NavBar = () => {
             </div>
             <div className="navbar-end space-x-6">
                 <a className="border-2 rounded-md border-[#e655271a] lg:hidden bg-[#e655271a] p-[6px]"><img src={frame} alt="" /></a>
-                <a className="border-2 rounded-md border-[#e655271a] hidden sm:flex bg-[#e655271a] p-[6px] "><img src={sun} alt="" /></a>
-                <a className="border-2 rounded-md border-[#e655271a] hidden sm:flex bg-[#e655271a] p-[5px] "><img src={nintendo} alt="" /></a>
+                <a className="border-2 rounded-md border-[#e655271a] hidden lg:flex bg-[#e655271a] p-[6px] "><img src={sun} alt="" /></a>
+                <a className="border-2 rounded-md border-[#e655271a] hidden lg:flex bg-[#e655271a] p-[5px] "><img src={nintendo} alt="" /></a>
                 <a className="border-2 rounded-md  bg-[#1010001a] p-[6px] "><img src={menubar} alt="" /></a>
             </div>
         </div>

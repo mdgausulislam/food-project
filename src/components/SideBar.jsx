@@ -7,7 +7,7 @@ import more from '../assets/icon/more-01.svg'
 
 const SideBar = () => {
     return (
-        <div className="w-[100px] text-white p-4 lg:menu-horizontal">
+        <div className="w-[80px] text-white lg:menu-horizontal hidden lg:flex">
             <ul className="menu rounded-box space-y-12">
                 <li>
                     <a className='border-2 rounded-md  bg-[#e655271a]'>
