@@ -3,7 +3,7 @@ import LeftPart from './LeftPart';
 import SideBar from './SideBar';
 import MiddlePart from './MiddlePart/MiddlePart';
 import RightPart from './RightPart/RightPart';
-import Footer from './Footer';
+import { Outlet } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -19,6 +19,7 @@ const Banner = () => {
                     </div>
                     <div>
                         <MiddlePart></MiddlePart>
+                       <Outlet></Outlet>
                     </div>
                     <div className="hidden lg:flex">
                        <RightPart></RightPart>
