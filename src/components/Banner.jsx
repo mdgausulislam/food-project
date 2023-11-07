@@ -1,6 +1,7 @@
 import React from 'react';
 import LeftPart from './LeftPart';
 import SideBar from './SideBar';
+import MiddlePart from './MiddlePart/MiddlePart';
 
 const Banner = () => {
     return (
@@ -12,12 +13,12 @@ const Banner = () => {
 
             {/* Main Content */}
             <div className="w-full p-4 bg-[#EEF0F2] rounded-tl-3xl">
-                <div className="lg:grid lg:grid-cols-[3fr,6fr,3fr] sm:grid-cols-1 gap-5">
+                <div className="lg:grid lg:grid-cols-[3fr,7fr,2fr] sm:grid-cols-1 gap-5">
                     <div>
                         <LeftPart />
                     </div>
                     <div>
-                        <h1>hemonto</h1>
+                        <MiddlePart></MiddlePart>
                     </div>
                     <div className="hidden sm:flex">
                         <h1>hemonto</h1>
