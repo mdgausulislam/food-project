@@ -9,7 +9,7 @@ const SideBar = () => {
     return (
         <div className="w-[100px] text-white p-4">
             {/* You can add your sidebar content here */}
-            <ul className="menu rounded-box space-y-12">
+            <ul className="menu sm:menu-horizontal rounded-box space-y-12">
                 <li>
                     <a className='border-2 rounded-md  bg-[#e655271a]'>
                         <img src={home} alt="" />

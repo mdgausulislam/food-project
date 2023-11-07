@@ -4,8 +4,7 @@ import SideBar from './SideBar';
 
 const Banner = () => {
     return (
-
-        <div className="sm:flex-col-reverse">
+        <div className="flex flex-col-reverse sm:flex-row"> {/* Use flex-col for small screens and flex-row for larger screens */}
             {/* Sidebar */}
             <div className='flex items-center'>
                 <SideBar></SideBar>
