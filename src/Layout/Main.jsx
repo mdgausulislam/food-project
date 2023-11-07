@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import { Outlet } from 'react-router-dom';
+import Banner from '../components/Banner';
 // import Nav from '../components/Nav';
 
 const Main = () => {
@@ -8,7 +9,8 @@ const Main = () => {
         <div>
             <NavBar></NavBar>
             <Outlet></Outlet>
-            {/* <Nav></Nav> */}
+            <Banner></Banner>
+       
         </div>
     );
 };
