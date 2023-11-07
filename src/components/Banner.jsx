@@ -11,7 +11,7 @@ const Banner = () => {
             </div>
 
             {/* Main Content */}
-            <div className="w-full p-4 bg-[#EEF0F2] rounded-tl-3xl sm:rounded-tl-none">
+            <div className="w-full p-4 bg-[#EEF0F2] rounded-tl-3xl">
                 <div className="lg:grid lg:grid-cols-[3fr,6fr,3fr] sm:grid-cols-1 gap-5">
                     <div>
                         <LeftPart />

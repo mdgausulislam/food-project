@@ -32,7 +32,7 @@ const LeftPart = () => {
 
 
 
-        <div className="navbar bg-base-300 rounded-box">
+        <div className="navbar rounded-box">
             <div className="flex-1 px-2 lg:flex-none flex lg:hidden">
                 <img src={dashMenu} alt="" />
                 <p>Select Food Item</p>

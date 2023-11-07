@@ -1,9 +1,10 @@
 import React from 'react';
 import frame from '../assets/icon/Frame.svg'
+import FoodItems from './FoodItems';
 
 const FoodList = () => {
     return (
-        <div className='w-full hidden lg:flex bg-white m-4 p-5'>
+        <div className='w-full hidden lg:flex bg-white m-2 p-5 rounded-2xl'>
             <div className='flex-row space-y-5'>
                 <div className="btn-group rounded-2xl p-2 border-2 border-[#e65527] bg-opacity-10 ">
                     <button className="font-bold text-[#E55527] px-10 bg-[#e655271a]">Fruits</button>
@@ -17,6 +18,7 @@ const FoodList = () => {
                         </button>
                     </div>
                 </div>
+                <FoodItems></FoodItems>  
             </div>
         </div>
     );
